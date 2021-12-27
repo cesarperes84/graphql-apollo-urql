@@ -6,7 +6,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import Apollo from '../components/Apollo';
 import logo from '../logo.svg';
 
-const GITHUB_BASE_URL = 'https://27895b80.ngrok.io';
+const GITHUB_BASE_URL = '';
 
 const httpLink = new HttpLink({
   uri: GITHUB_BASE_URL,
